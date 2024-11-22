@@ -1,6 +1,6 @@
 package com.example.tangthu_app_be.repo.mongorepo;
 
-import com.example.tangthu_app_be.domain.dtos.User;
+import com.example.tangthu_app_be.domain.entities.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
