@@ -1,4 +1,4 @@
-package com.example.tangthu_app_be.rest.dto.response;
+package com.example.tangthu_app_be.domain.dtos.response;
 
 public class BaseBadRequestResponse {
     protected String code;
