@@ -1,9 +1,7 @@
 package com.example.tangthu_app_be.common.util;
 
 import com.example.tangthu_app_be.TangthuAppBeApplication;
-import com.example.tangthu_app_be.domain.dtos.ActionDetailDTO;
 import com.example.tangthu_app_be.exception.ConstraintViolationExceptionCustom;
-import jakarta.persistence.EntityManager;
 import jakarta.validation.ConstraintViolation;
 import jakarta.validation.Validation;
 import jakarta.validation.Validator;
@@ -16,7 +14,6 @@ import org.springframework.http.HttpHeaders;
 
 import java.io.*;
 import java.lang.reflect.Field;
-import java.lang.reflect.Method;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.sql.Timestamp;

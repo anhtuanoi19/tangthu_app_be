@@ -4,7 +4,7 @@ import com.example.tangthu_app_be.common.util.excel.ExcelColumn;
 import com.example.tangthu_app_be.common.util.excel.ExcelHeader;
 import com.example.tangthu_app_be.common.util.excel.ExcelHeaderItem;
 import com.example.tangthu_app_be.common.util.excel.ExcelTitle;
-import com.example.tangthu_app_be.domain.dtos.DetailVotesExcelDTO;
+import com.example.tangthu_app_be.domain.dtos.response.DetailVotesExcelDTO;
 import com.google.common.collect.Lists;
 import org.apache.poi.hssf.usermodel.HSSFFont;
 import org.apache.poi.hssf.util.HSSFColor;

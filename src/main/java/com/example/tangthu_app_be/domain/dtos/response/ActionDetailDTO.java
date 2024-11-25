@@ -1,4 +1,4 @@
-package com.example.tangthu_app_be.domain.dtos;
+package com.example.tangthu_app_be.domain.dtos.response;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;

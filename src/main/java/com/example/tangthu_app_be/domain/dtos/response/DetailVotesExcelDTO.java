@@ -1,4 +1,4 @@
-package com.example.tangthu_app_be.domain.dtos;
+package com.example.tangthu_app_be.domain.dtos.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
