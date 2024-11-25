@@ -1,10 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Danh sách người dùng</title>
+    <link th:href="@{bootstrap/css/bootstrap.min.css/}" rel="stylesheet">
+    <link th:href="@{/assets/css/styles.css}" rel="stylesheet">
+    <img th:src="@{/assets/images/logos/logo-light.svg}" alt="Logo">
 </head>
-<body>
-
+<body >
+<div class="page-wrapper" id="main-wrapper" data-layout="vertical" data-navbarbg="skin6" data-sidebartype="full"
+     data-sidebar-position="fixed" data-header-position="fixed" >
+    <!-- Sidebar Start -->
+    <aside class="left-sidebar">
+        <div th:replace="~{/layout/Menu :: menu}"></div>
+    </aside>
+</div>
+<div class="body-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title d-flex align-items-center gap-2 mb-4">
+                            Traffic Overview
+                            <span>
+                      <iconify-icon icon="solar:question-circle-bold" class="fs-7 d-flex text-muted"
+                                    data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-custom-class="tooltip-success"
+                                    data-bs-title="Traffic Overview"></iconify-icon>
+                    </span>
+                        </h5>
+                        <div id="traffic-overview">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</tbody>
 </body>
 </html>
